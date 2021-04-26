@@ -47,7 +47,7 @@ library(ggmap)
 
 # API Key
 # how to get API key https://developers.google.com/maps/documentation/maps-static/get-api-key#get-key
-register_google(key = "AIzaSyBIlNNE1TkbzMxy2Oz1lOkNzfpCEbOHjJY")
+register_google(key = "mykey")
 
 # Google Maps/Stratmen
 base_map <- get_map(location = c(-88.9,25.8), # c(longitude,latitude)
